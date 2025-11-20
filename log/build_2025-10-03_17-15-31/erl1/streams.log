@@ -1,0 +1,45 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/erl1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/erl1
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[0.441s] -- The CXX compiler identification is GNU 13.3.0
+[0.472s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.596s] -- Detecting C compile features
+[0.596s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.706s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.714s] -- Detecting CXX compile features
+[0.714s] -- Detecting CXX compile features - done
+[0.749s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.897s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.073s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.208s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.208s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.212s] -- Added test 'lint_cmake' to check CMake code style
+[1.215s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.218s] -- Added test 'xmllint' to check XML markup files
+[1.223s] -- Configuring done (1.1s)
+[1.231s] -- Generating done (0.0s)
+[1.236s] -- Build files have been written to: /root/ros2_ws/build/erl1
+[1.244s] Invoked command in '/root/ros2_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/erl1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/erl1
+[1.246s] Invoking command in '/root/ros2_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/erl1 -- -j8 -l8
+[1.285s] Invoked command in '/root/ros2_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/erl1 -- -j8 -l8
+[1.295s] Invoking command in '/root/ros2_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/erl1
+[1.303s] -- Install configuration: ""
+[1.304s] -- Installing: /root/ros2_ws/install/erl1/share/ament_index/resource_index/package_run_dependencies/erl1
+[1.305s] -- Installing: /root/ros2_ws/install/erl1/share/ament_index/resource_index/parent_prefix_path/erl1
+[1.305s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/environment/ament_prefix_path.sh
+[1.306s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/environment/ament_prefix_path.dsv
+[1.306s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/environment/path.sh
+[1.307s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/environment/path.dsv
+[1.308s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/local_setup.bash
+[1.308s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/local_setup.sh
+[1.308s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/local_setup.zsh
+[1.309s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/local_setup.dsv
+[1.309s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/package.dsv
+[1.310s] -- Installing: /root/ros2_ws/install/erl1/share/ament_index/resource_index/packages/erl1
+[1.310s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/cmake/erl1Config.cmake
+[1.310s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/cmake/erl1Config-version.cmake
+[1.311s] -- Installing: /root/ros2_ws/install/erl1/share/erl1/package.xml
+[1.314s] Invoked command in '/root/ros2_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/erl1

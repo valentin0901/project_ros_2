@@ -1,0 +1,12 @@
+/root/ros2_ws/build/my_opencv/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/my_opencv_uninstall.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/image_subscriber.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/it_subscriber.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/it_modifier.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/test.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/install.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/install/local.dir
+/root/ros2_ws/build/my_opencv/CMakeFiles/install/strip.dir

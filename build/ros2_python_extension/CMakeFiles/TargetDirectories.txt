@@ -1,0 +1,9 @@
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/ros2_python_extension_uninstall.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/test.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/install.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/install/local.dir
+/root/ros2_ws/build/ros2_python_extension/CMakeFiles/install/strip.dir

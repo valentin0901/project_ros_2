@@ -1,0 +1,12 @@
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/bitbots_tf_buffer_uninstall.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/cpp_wrapper.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/ament_cmake_python_copy_bitbots_tf_buffer.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/ament_cmake_python_build_bitbots_tf_buffer_egg.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/test.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/install.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/install/local.dir
+/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/install/strip.dir

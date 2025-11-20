@@ -1,0 +1,23 @@
+[1.988s] Invoking command in '/root/ros2_ws/src/mogi_trajectory_server': PYTHONPATH=/root/ros2_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /root/ros2_ws/build/mogi_trajectory_server/build install --record /root/ros2_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[2.355s] running egg_info
+[2.400s] writing ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[2.404s] writing dependency_links to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[2.404s] writing entry points to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[2.405s] writing requirements to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[2.405s] writing top-level names to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[2.471s] reading manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[2.472s] adding license file 'LICENSE'
+[2.473s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[2.473s] running build
+[2.473s] running build_py
+[2.474s] running install
+[2.487s] running install_lib
+[2.531s] running install_data
+[2.531s] running install_egg_info
+[2.564s] removing '/root/ros2_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[2.569s] Copying ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /root/ros2_ws/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[2.572s] running install_scripts
+[2.799s] Installing mogi_trajectory_server script to /root/ros2_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[2.800s] Installing mogi_trajectory_server_topic_based script to /root/ros2_ws/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[2.800s] writing list of installed files to '/root/ros2_ws/build/mogi_trajectory_server/install.log'
+[2.849s] Invoked command in '/root/ros2_ws/src/mogi_trajectory_server' returned '0': PYTHONPATH=/root/ros2_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /root/ros2_ws/build/mogi_trajectory_server/build install --record /root/ros2_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data

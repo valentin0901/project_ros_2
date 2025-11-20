@@ -1,0 +1,43 @@
+[0.098s] Invoking command in '/root/ros2_ws/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/bme_gazebo_sensors -- -j8 -l8
+[0.320s] Invoked command in '/root/ros2_ws/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/bme_gazebo_sensors -- -j8 -l8
+[0.337s] Invoking command in '/root/ros2_ws/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/bme_gazebo_sensors
+[0.353s] -- Install configuration: ""
+[0.353s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch
+[0.354s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/check_urdf.launch.py
+[0.354s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/world.launch.py
+[0.354s] -- Installing: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/spawn_robot.launch.py
+[0.356s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds
+[0.357s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/my_world.sdf
+[0.357s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/empty.sdf
+[0.358s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/world.sdf
+[0.358s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/home.sdf
+[0.358s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz
+[0.359s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/gps.rviz
+[0.359s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/rviz.rviz
+[0.359s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/urdf.rviz
+[0.360s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf
+[0.360s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/materials.xacro
+[0.361s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/mogi_bot.gazebo
+[0.361s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/mogi_bot.urdf
+[0.361s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes
+[0.362s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/lidar.dae
+[0.362s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/wheel.dae
+[0.363s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/mogi_bot.dae
+[0.363s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/config
+[0.364s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/config/ekf.yaml
+[0.364s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_sensors
+[0.365s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_sensors
+[0.365s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/ament_prefix_path.sh
+[0.365s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/path.sh
+[0.366s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/path.dsv
+[0.368s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.bash
+[0.368s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.sh
+[0.369s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.zsh
+[0.369s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.dsv
+[0.372s] -- Installing: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.dsv
+[0.375s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/ament_index/resource_index/packages/bme_gazebo_sensors
+[0.375s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/cmake/bme_gazebo_sensorsConfig.cmake
+[0.375s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/cmake/bme_gazebo_sensorsConfig-version.cmake
+[0.376s] -- Up-to-date: /root/ros2_ws/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.xml
+[0.388s] Invoked command in '/root/ros2_ws/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/bme_gazebo_sensors

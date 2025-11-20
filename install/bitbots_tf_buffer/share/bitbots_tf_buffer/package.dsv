@@ -1,0 +1,11 @@
+source;share/bitbots_tf_buffer/hook/cmake_prefix_path.ps1
+source;share/bitbots_tf_buffer/hook/cmake_prefix_path.dsv
+source;share/bitbots_tf_buffer/hook/cmake_prefix_path.sh
+source;share/bitbots_tf_buffer/hook/pythonpath.ps1
+source;share/bitbots_tf_buffer/hook/pythonpath.dsv
+source;share/bitbots_tf_buffer/hook/pythonpath.sh
+source;share/bitbots_tf_buffer/local_setup.bash
+source;share/bitbots_tf_buffer/local_setup.dsv
+source;share/bitbots_tf_buffer/local_setup.ps1
+source;share/bitbots_tf_buffer/local_setup.sh
+source;share/bitbots_tf_buffer/local_setup.zsh

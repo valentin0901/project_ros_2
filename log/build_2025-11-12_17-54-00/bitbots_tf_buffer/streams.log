@@ -1,0 +1,40 @@
+[0.061s] Invoking command in '/root/ros2_ws/build/bitbots_tf_buffer': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/bitbots_tf_buffer -- -j8 -l8
+[0.494s] [  0%] Built target ament_cmake_python_copy_bitbots_tf_buffer
+[0.533s] [100%] Built target cpp_wrapper
+[1.031s] running egg_info
+[1.058s] writing bitbots_tf_buffer.egg-info/PKG-INFO
+[1.058s] writing dependency_links to bitbots_tf_buffer.egg-info/dependency_links.txt
+[1.059s] writing top-level names to bitbots_tf_buffer.egg-info/top_level.txt
+[1.166s] reading manifest file 'bitbots_tf_buffer.egg-info/SOURCES.txt'
+[1.167s] writing manifest file 'bitbots_tf_buffer.egg-info/SOURCES.txt'
+[1.246s] [100%] Built target ament_cmake_python_build_bitbots_tf_buffer_egg
+[1.299s] Invoked command in '/root/ros2_ws/build/bitbots_tf_buffer' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/bitbots_tf_buffer -- -j8 -l8
+[1.304s] Invoking command in '/root/ros2_ws/build/bitbots_tf_buffer': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/bitbots_tf_buffer
+[1.326s] -- Install configuration: ""
+[1.327s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/pythonpath.sh
+[1.327s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/pythonpath.dsv
+[1.327s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer-1.0.0-py3.12.egg-info
+[1.328s] -- Installing: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer-1.0.0-py3.12.egg-info/PKG-INFO
+[1.330s] -- Installing: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer-1.0.0-py3.12.egg-info/SOURCES.txt
+[1.331s] -- Installing: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer-1.0.0-py3.12.egg-info/dependency_links.txt
+[1.332s] -- Installing: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer-1.0.0-py3.12.egg-info/top_level.txt
+[1.333s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer
+[1.333s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer/__init__.py
+[1.421s] Listing '/root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer'...
+[1.434s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/lib/python3.12/site-packages/bitbots_tf_buffer/cpp_wrapper.cpython-312-x86_64-linux-gnu.so
+[1.435s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/ament_index/resource_index/package_run_dependencies/bitbots_tf_buffer
+[1.436s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/ament_index/resource_index/parent_prefix_path/bitbots_tf_buffer
+[1.436s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/ament_prefix_path.sh
+[1.438s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/ament_prefix_path.dsv
+[1.438s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/path.sh
+[1.439s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/environment/path.dsv
+[1.439s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/local_setup.bash
+[1.439s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/local_setup.sh
+[1.439s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/local_setup.zsh
+[1.439s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/local_setup.dsv
+[1.439s] -- Installing: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/package.dsv
+[1.443s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/ament_index/resource_index/packages/bitbots_tf_buffer
+[1.443s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/cmake/bitbots_tf_bufferConfig.cmake
+[1.443s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/cmake/bitbots_tf_bufferConfig-version.cmake
+[1.444s] -- Up-to-date: /root/ros2_ws/install/bitbots_tf_buffer/share/bitbots_tf_buffer/package.xml
+[1.449s] Invoked command in '/root/ros2_ws/build/bitbots_tf_buffer' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_python_extension:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/bitbots_tf_buffer

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-947ec68bd431158f97c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_opencv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "image_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_subscriber-79afe6bfeb650bc28c32.json",
+					"name" : "image_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "it_modifier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-it_modifier-9e0e5a39dac17e543f13.json",
+					"name" : "it_modifier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "it_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-it_subscriber-53a7962ce30d1aa0295a.json",
+					"name" : "it_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_opencv_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_opencv_uninstall-74cef6497738bc7ffaf3.json",
+					"name" : "my_opencv_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9290145b195b393d4d79.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/my_opencv",
+		"source" : "/root/ros2_ws/src/my_opencv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

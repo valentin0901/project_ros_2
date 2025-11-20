@@ -1,0 +1,4 @@
+source;share/bitbots_tf_buffer/local_setup.bash
+source;share/bitbots_tf_buffer/local_setup.dsv
+source;share/bitbots_tf_buffer/local_setup.sh
+source;share/bitbots_tf_buffer/local_setup.zsh
