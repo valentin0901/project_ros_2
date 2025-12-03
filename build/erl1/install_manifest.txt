@@ -1,6 +1,7 @@
 /root/ros2_ws/install/erl1/share/erl1/launch/rviz_launch.py
 /root/ros2_ws/install/erl1/share/erl1/launch/spawn_robot.launch.py
 /root/ros2_ws/install/erl1/share/erl1/launch/my_launch.py
+/root/ros2_ws/install/erl1/share/erl1/worlds/my_world_2.sdf
 /root/ros2_ws/install/erl1/share/erl1/worlds/my_world.sdf
 /root/ros2_ws/install/erl1/share/erl1/worlds/empty.sdf
 /root/ros2_ws/install/erl1/share/erl1/rviz/urdf.rviz
