@@ -25,6 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'aruco_marker_finder = assignment_1.aruco_marker_finder:main',
         ],
     },
 )

@@ -3,6 +3,7 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource, AnyLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution
+from launch_ros.actions import Node
 
 
 def generate_launch_description():
@@ -41,8 +42,17 @@ def generate_launch_description():
             ])
         ])
     )
+
+
+    aruco_finder_node = Node(
+        package='assignment_1',
+        executable='aruco_marker_finder',
+        name='aruco_marker_finder',
+        output='screen'
+    )
     
     return LaunchDescription([
         spawn_robot_launch,
         aruco_tracker_launch,
+        aruco_finder_node,
     ])
