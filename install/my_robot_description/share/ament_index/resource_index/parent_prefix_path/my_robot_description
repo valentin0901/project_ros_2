@@ -1,1 +1,1 @@
-/opt/ros/jazzy
+/root/ros2_ws/install/bitbots_tf_buffer:/root/ros2_ws/install/ros2_python_extension:/root/ros2_ws/install/my_robot_description:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_opencv:/root/ros2_ws/install/mogi_trajectory_server:/root/ros2_ws/install/erl1:/root/ros2_ws/install/bme_gazebo_sensors:/root/ros2_ws/install/assignment_1:/root/ros2_ws/install/aruco_opencv:/root/ros2_ws/install/aruco_opencv_msgs:/opt/ros/jazzy

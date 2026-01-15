@@ -1,0 +1,29 @@
+# PlanSys2 Configuration for Assignment 2
+
+plansys2:
+  ros__parameters:
+    use_sim_time: True
+    
+    # Domain expert configuration
+    model_file: ""  # Will be set by launch file
+    
+    # Planner configuration
+    planner_plugin: "plansys2/POPFPlannerPlugin"
+    
+    # Problem expert configuration
+    problem_file: ""  # Will be set dynamically
+
+# Action execution durations (used by the planner)
+action_durations:
+  ros__parameters:
+    move: 10.0
+    scan_waypoint: 5.0
+    detect_marker: 3.0
+    photograph_marker: 8.0
+    set_next_target: 1.0
+
+# Executor configuration
+executor:
+  ros__parameters:
+    use_sim_time: True
+    action_bt_xml_filename: ""  # Default behavior tree

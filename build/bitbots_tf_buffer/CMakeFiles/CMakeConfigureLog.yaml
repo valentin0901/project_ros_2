@@ -645,3 +645,127 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:14 (check_ipo_supported)"
+    directories:
+      source: "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+        gmake[1]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -S/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src -B/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[2]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/bin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/gcc-ar-13" cr libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/bin/gcc-ranlib-13" libfoo.a
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/bin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a 
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        gmake[2]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        gmake[1]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "CMakeLists.txt:14 (check_ipo_supported)"
+    directories:
+      source: "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+        gmake[1]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -S/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src -B/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[2]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/gcc-ar-13" cr libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/bin/gcc-ranlib-13" libfoo.a
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        gmake[3]: Entering directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a 
+        gmake[3]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        gmake[2]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        gmake[1]: Leaving directory '/root/ros2_ws/build/bitbots_tf_buffer/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+      exitCode: 0
+...
