@@ -1,3 +1,14 @@
 build/
 install/
 log/
+
+src/assignment_1/
+src/erl1/
+src/bitbots_tf_buffer/
+src/mogi_trajectory_server/
+src/my_opencv/
+src/my_robot_bringup/
+src/my_robot_description/
+src/ros_aruco_opencv/
+src/ros2_python_extension/
+src/ros2-gazebo-aruco/

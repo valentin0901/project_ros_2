@@ -25,7 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'go_to_pose = assignment_2.go_to_pose:main',
+            'aruco_navigator = assignment_2.aruco_navigator:main',
         ],
     },
 )
