@@ -268,36 +268,3 @@ CENTER_AND_PHOTO → Capture and save image
 DONE → Mission complete
 ```
 
-## Known Limitations & Future Work
-
-### Current Implementation
-
-- **PlanSys2 Integration**: The assignment specification requires PlanSys2 for action planning, but this implementation uses a direct state machine approach with Nav2. Integration with PlanSys2 is planned for future versions.
-
-- **Single Robot**: Currently designed for single robot operation in simulation.
-
-### Potential Improvements
-
-1. **PlanSys2 Integration**: Implement PDDL domain and problem files for formal task planning
-2. **Dynamic Replanning**: Handle marker occlusion or detection failures
-3. **Real Robot Deployment**: Test and adapt for physical TurtleBot3
-4. **Multi-Robot Coordination**: Extend to coordinate multiple robots
-5. **Improved Marker Localization**: Use visual servoing for more precise positioning
-
-## Troubleshooting
-
-### Nav2 Goal Rejection
-If navigation goals are rejected:
-- Ensure Nav2 has fully initialized (wait 30-60 seconds after launch)
-- Check that `use_sim_time` is set to `True`
-- Verify map file is loaded correctly
-
-### No Markers Detected
-- Check ArUco detection node is running: `ros2 node list | grep aruco`
-- Verify camera topic: `ros2 topic echo /camera/image_raw`
-- Ensure markers are visible from waypoints in Gazebo
-
-### Navigation Failures
-- Verify robot is not stuck: check `/odom` in RViz
-- Ensure obstacles are properly represented in costmaps
-- Check Nav2 parameters for TurtleBot3 compatibility
